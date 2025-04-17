@@ -26,7 +26,6 @@ h2{
     font-family: var( --font--family--bold);
 }
 h3{
-    font-size: 24px;
     color: var(--color--text--blue);
     font-family: var( --font--family--bold);
 }
