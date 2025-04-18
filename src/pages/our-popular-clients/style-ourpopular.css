@@ -19,11 +19,24 @@
 }
 
 .ourpopular-conteiner{
-    border-top: 2px solid var(--color--danger);
+    border-top: 6px solid var(--color--danger);
     width: 95px;
     border-radius: 0%;
+    padding: 20px 0px;
+    margin-top: 20px;
 }
 
 .ourpopular-conteiner button{
-  background-color: white;
+    color: #96BB7C;
+    background-color: white;
+}
+
+
+.learn-more button{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    gap: 10px;
+    font-size: 12px;
+    font-family: var( --font--family--bold); 
 }
