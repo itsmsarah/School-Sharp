@@ -26,6 +26,7 @@ h2{
     font-family: var( --font--family--bold);
 }
 h3{
+    color: var(--color--text--blue);
     font-family: var( --font--family--bold);
 }
 .practice-advice{
