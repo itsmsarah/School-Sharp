@@ -16,6 +16,13 @@ p{
     font-family:var(--font--family--regular);
     font-size:14px;
 }
+
+.p-problems{
+    width: 463px;
+    margin: 0 auto;
+    color: var(--color--text--grey);
+}
+
 h1{
     font-size: 58px;
     color: var(--color--text--blue);
