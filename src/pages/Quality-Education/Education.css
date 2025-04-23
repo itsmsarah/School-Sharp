@@ -1,5 +1,6 @@
 @import url(/School-Sharp/src/styles/global.css);
 
+/* COMEÇO DO GET-QUALITY-EDUCATION */
 .get-quality-education{
     text-align: center;
 }
@@ -154,4 +155,5 @@
     align-items: center;
     color: var(--color--light--gray);
 }
+/* FIM DO GET-QUALITY-EDUCATION */
 

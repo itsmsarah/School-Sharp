@@ -1,5 +1,6 @@
 @import url('/src/styles/global.css');
 
+/* COMEÇO DO HEADER */
 header{
     display: flex;
     align-items: center;
@@ -58,3 +59,4 @@ header h1{
     cursor: pointer;
 }
 
+/* FIM DO HEADER */

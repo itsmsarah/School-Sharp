@@ -1,5 +1,6 @@
 @import url(../../styles/global.css);
 
+/* COMEÇO DO NEWSLETTER */
 .subscribe{
     background-color: var(--color--dark--background-color);
     padding: 160px 195px;
@@ -63,3 +64,4 @@ form{
     border-radius: 5px;
     border: 1px solid #E6E6E6;
 }
+/* FIM DO NEWSLETTER */
