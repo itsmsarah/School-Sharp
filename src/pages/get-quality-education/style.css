@@ -1,0 +1,156 @@
+@import url(../../styles/global.css);
+ 
+ .get-quality-education{
+     text-align: center;
+ }
+ 
+ .education{
+     margin: 60px 0px  80px;
+ }
+ 
+ .education h2{
+     font-size: 40px;
+     font-weight: bold;
+     margin: 10px 0px;
+ }
+ 
+ .education-container{
+     display: flex;
+     
+ }
+ 
+ .education-container{
+     display: flex;
+     justify-content: center;
+     gap: 30px;
+     width: 323px;
+     margin: 0 auto;    
+     
+ }
+ 
+ .education-cards{
+     padding: 37px;
+     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+ }
+ 
+ 
+ .free h3{
+     margin: 35px
+ }
+ 
+ .free p{
+     width: 147px;
+     color: var( --color--text--grey);
+     font-weight: bold;
+     margin: 0 auto;
+ }
+ 
+ .per-month h3{
+     color: var(--color--primary--green);
+     font-size: 40px;
+     margin-top: 35px;
+ }
+ 
+ .per-month p:nth-of-type(1){
+     color: var(--color--light--blue);
+     font-weight: bold;
+     margin-bottom: 35px;
+ }
+ 
+ .per-month p:nth-of-type(2){
+     width: 200px;
+     margin: 0 auto;
+ }
+ 
+ .per-month button{
+     margin-top: 35px;
+     padding: 15px 80px;
+     background-color: var(--color--primary--green);
+     border-radius: 5px;
+     color: var(  --color--light--gray);
+ }
+ 
+ .education-content{
+     width: 250PX;    
+     margin: 0 auto;
+     margin-top: 35px;
+     display: flex;    
+     flex-direction: column;    
+     gap: 15px;
+ }
+ 
+ .update{
+     display: flex;    
+     gap: 10px;
+     align-items: center;
+ }
+ 
+ 
+ 
+ .cards-education{
+     background-color: var(--color--dark--background-color);
+     padding: 50px 0px;     
+     padding: 37px;
+     position: relative;
+ }
+ 
+ .texte{
+     position: absolute;
+     top: -45px;
+     right: -45px;
+     
+ }
+ 
+ 
+ .free-new h3{
+     margin: 35px;
+     color: var( --color--light--gray);
+ }
+ 
+ .free-new p{
+     width: 147px;
+     color: var( --color--light--gray);
+     font-weight: bold;
+     margin: 0 auto;
+ }
+ 
+ .per-month-new h3{
+     color: var( --color--primary--green);
+     font-size: 40px;
+     margin-top: 35px;
+ }
+ 
+ .per-month-new p:nth-of-type(1){
+     color: var(--color--light--blue);
+     margin-bottom: 35px;
+ }
+ 
+ .per-month-new p:nth-of-type(2){
+     width: 200px;
+     margin: 0 auto;
+     color: var(--color--light--gray);
+ }
+ 
+ .per-month-new button{
+     margin-top: 35px;
+     padding: 15px 80px;
+     background-color: var(--color--primary--green);
+     border-radius: 5px;
+     color: var(  --color--light--gray);
+ }
+ 
+ .education-content{
+     width: 250PX;    
+     margin: 0 auto;
+     margin-top: 35px;
+     display: flex;    
+     flex-direction: column;    
+     gap: 15px;
+ }
+ 
+ .update-new{
+     display: flex;    
+     gap: 10px;
+     align-items: center;
+     color: var(--color--light--gray);
+ }

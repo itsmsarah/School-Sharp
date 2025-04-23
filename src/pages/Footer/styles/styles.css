@@ -1,7 +1,11 @@
-@import url(/School-Sharp/src/styles/global.css);
+@import url(/src/styles/global.css);
+
+
+
+/* ------ Footer ------- */
 
 footer{
-
+    
 }
 
 .footer-container{
@@ -24,7 +28,7 @@ footer{
 .footer-list li{
     margin-bottom: 10px;
     font-weight: bold;
-    color: var( --color--text--grey);
+    color: var(--color--text--grey);
 }
 
 .get-in-touch li{
@@ -46,7 +50,7 @@ footer{
 }
 
 .by-figmaland p{
-    color: var( --color--text--grey);
+    color: var(--color--text--grey);
     font-weight: bold;
     font-size: 14px;
 }
@@ -57,3 +61,4 @@ footer{
     align-items: center;
 }
 
+/* ------ fim Footer ------- */
