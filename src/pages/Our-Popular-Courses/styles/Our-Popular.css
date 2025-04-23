@@ -1,20 +1,20 @@
-@import url(/src/styles/global.css);
+@import url(/School-Sharp/src/styles/global.css);
 
 .our-popular-pourses{
     text-align: center;
     padding-top: 81px;
 }
 
-.popular-pourses{
+.popular-courses{
     width: 470px;
     margin: 0 auto;
 }
-.popular-pourses p{
-    line-height: 1.5;
-    width: 463px;
-    color: var(--color--muted--grey);
+.p-problems{
+    margin: 10px 0px 80px ;
 }
 
-.popular-ourses-img{
-    margin-top: 80px;
+
+.popular-courses-img img{
+    border-radius: 10px;
+    cursor: pointer;
 }
