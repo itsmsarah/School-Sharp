@@ -1,0 +1,22 @@
+@import url(/School-Sharp/src/styles/global.css);
+
+/* COMEÇO DO OUR POPULAR COURSES */
+.our-popular-pourses{
+    text-align: center;
+    padding-top: 81px;
+}
+
+.popular-courses{
+    width: 470px;
+    margin: 0 auto;
+}
+.p-problems{
+    margin: 10px 0px 80px ;
+}
+
+
+.popular-courses-img img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* FIM DO OUR POPULAR COURSES */

@@ -1,6 +1,7 @@
 @import url(../../styles/global.css);
 
-/*---------------Our Popular Courses--------------------*/
+/* COMEÇO DO OUR-POPULAR-CLIENTS */
+
 .ourpopular{
     display: flex;
     align-items: center;
@@ -40,3 +41,4 @@
     font-size: 12px;
     font-family: var( --font--family--bold); 
 }
+/* FIM DO OUR-POPULAR-CLIENTS */

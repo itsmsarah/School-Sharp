@@ -1,9 +1,11 @@
 @import url(../../styles/global.css);
 
-
 .most-popular{    
    text-align: center;
    margin-bottom: 60px ;    
+}
+.practice-conteiner{
+    display: flex;
 }
 
 .most-popular h4{
@@ -65,3 +67,4 @@
 .training-conteiner article h2{
     font-size: 28px;
 }
+/* FIM DO MOST-POPULAR-COURSES */
