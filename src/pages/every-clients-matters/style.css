@@ -1,5 +1,6 @@
 @import url(../../styles/global.css);
 
+/*COMEÇO EVERY-CLIENTS-MATTERS */
 .every-clients-container{
     margin-top: 93px;
 }
@@ -150,3 +151,4 @@
     font-family: var(--font--family--bold);
     gap: 10px;
 }
+/*FIM  EVERY-CLIENTS-MATTERS */

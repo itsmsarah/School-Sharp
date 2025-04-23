@@ -1,6 +1,6 @@
 @import url(../../styles/global.css);
 
-
+/* COMEÇO DO MOST-POPULAR-COURSES */
 .practice-conteiner{
     display: flex;
 }
@@ -20,3 +20,4 @@
 .courses-conteiner{
   text-align: center;
 }
+/* FIM DO MOST-POPULAR-COURSES */

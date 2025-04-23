@@ -1,5 +1,6 @@
 @import url(/School-Sharp/src/styles/global.css);
 
+/* COMEÇO DO OUR POPULAR COURSES */
 .our-popular-pourses{
     text-align: center;
     padding-top: 81px;
@@ -18,3 +19,4 @@
     border-radius: 10px;
     cursor: pointer;
 }
+/* FIM DO OUR POPULAR COURSES */
