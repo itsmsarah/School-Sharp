@@ -57,3 +57,38 @@ main img{
     height: 644px;
 }
 /* FIM DO MAIN */
+
+
+/* ----- RESPONSIVIDADE ------ */
+
+@media (max-width: 435px){
+
+    /* ----- INICIO MAIN----- */
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    
+    .main-content{
+        width: 90%;
+    }
+    .quality-courses h1{
+        font-size: 45px;
+    }
+    
+
+    .main-learn-more button{
+        padding: 15px 20px;
+    }
+    .img-main{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    /* ----- FIM MAIN----- */
+
+}
