@@ -152,3 +152,15 @@
     gap: 10px;
 }
 /*FIM  EVERY-CLIENTS-MATTERS */
+
+/* INICIO-RESPONSIVIDADE EVERY-CLIENTS-MATTERS */
+
+@media (max-width: 435px) {
+    .container-book-training{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* FIM-RESPONSIVIDADE EVERY-CLIENTS-MATTERS */

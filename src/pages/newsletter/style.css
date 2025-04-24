@@ -65,3 +65,23 @@ form{
     border: 1px solid #E6E6E6;
 }
 /* FIM DO NEWSLETTER */
+
+/* INICIO RESPONSIVIDADE NEWSLETTER */
+
+@media (max-width: 500px){
+
+    .subscribe{
+        padding: 40px 15px;
+        gap: 20px;
+    
+    }
+    .newsteller-content{
+        width: 70%;
+    }
+    input{
+        width: 277px;
+    }
+
+}
+/* FIM RESPONSIVIDADE NEWSLETTER */
+
