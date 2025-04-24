@@ -15,6 +15,20 @@ header h1{
     font-size: 24px;
 }
 
+.menu-toggle{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    display: none;
+}
+
+.menu{
+    height: 3px;
+    width: 24px;
+    background-color: black;    
+}
+
 .nav-header{
     display: flex;
     gap: 240px;
@@ -60,3 +74,25 @@ header h1{
 }
 
 /* FIM DO HEADER */
+
+/* ----- RESPONSIVIDADE ---- */
+
+@media (max-width: 435px){
+
+    /* --- INICIO HEADER -- */
+
+    header{
+        margin-top: 10px;
+    }
+
+    .nav-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+    }
+    
+    /* --- Fim HEADER -- */
+
+}

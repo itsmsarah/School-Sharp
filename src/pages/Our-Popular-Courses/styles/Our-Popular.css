@@ -1,4 +1,4 @@
-@import url(/School-Sharp/src/styles/global.css);
+@import url(/src/styles/global.css);
 
 /* COMEÇO DO OUR POPULAR COURSES */
 .our-popular-pourses{
@@ -11,12 +11,35 @@
     margin: 0 auto;
 }
 .p-problems{
-    margin: 10px 0px 80px ;
+    margin: 10px 0px 80px;
 }
 
 
-.popular-courses-img img{
+.popular-courses-img {
     border-radius: 10px;
     cursor: pointer;
 }
 /* FIM DO OUR POPULAR COURSES */
+
+/* ---- RESPONSIVIDADE OUR POPULAR COURSES ----- */
+
+@media (max-width: 435px){
+
+    .popular-courses{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+
+    }
+
+    .p-problems{
+        width: 100%;
+    }
+
+    .popular-courses-img{
+        width:95%;
+    }
+
+}
+
