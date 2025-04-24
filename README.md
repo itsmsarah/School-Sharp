@@ -56,7 +56,7 @@ School-Sharp é Projeto que desenvolvemos em grupo, com o objetivo de praticar n
 <!-- MODELO DE PRÉ REQUISITOS -->
 ### Pré-requisitos
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas um editor de código:
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: um editor de código
 
 
 ---
