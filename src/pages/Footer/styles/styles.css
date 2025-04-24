@@ -44,8 +44,8 @@ footer{
 .by-figmaland{
     display: flex;
     justify-content: center;
-    gap: 439px;
     padding: 25px;
+    gap: 439px;
     background-color: var(  --color--light--gray);
 }
 
@@ -62,3 +62,39 @@ footer{
 }
 
 /* ------ fim Footer ------- */
+
+/* ---- RESPONSIVIDADE FOOTER -- */
+
+@media (max-width: 435px){
+
+    footer{
+        width: 90%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .get-in-touch li{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+        font-weight: bold;
+        color: var( --color--text--grey);   
+    }
+
+    .by-figmaland {
+        gap: 10px; /* Menos gap em telas muito pequenas */
+        width: 100%;
+    }
+
+    .social-icons {
+        gap: 10px; /* Menos espaço entre os ícones sociais */
+    }
+}
+
+
+/* ---- FIM  RESPONSIVIDADE FOOTER -- */
