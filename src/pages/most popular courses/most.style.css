@@ -1,23 +1,70 @@
 @import url(../../styles/global.css);
 
-/* COMEÇO DO MOST-POPULAR-COURSES */
+.most-popular{    
+   text-align: center;
+   margin-bottom: 60px ;    
+}
 .practice-conteiner{
     display: flex;
 }
 
-.practive-content p{
-   width: 463px;
+.most-popular h4{
+   margin-top: 10px;
+   font-family:var(--font--family--regular);
+   color:#96BB7C;
 }
 
-.practive-content{
-   justify-items: center;
-}
- 
-.practive-content h4{
-   color: var(--color--primary--green);
+.most-popular h2{
+   margin-top: 15px;
 }
 
-.courses-conteiner{
-  text-align: center;
+
+.training-conteiner img{
+   margin-bottom: 10px;
+   width: 70px;
+}
+
+.line-red{
+   background-color: var(--color--danger);
+   height: 3px;
+   width: 60px;
+}
+
+.gradual-content{
+   width: 156px;
+   border-radius: 0%;
+   color: #737373;
+   font-family:var(--font--family--regular);
+}
+
+
+.training-conteiner{
+   display: flex;
+   margin-top: 60px;
+   gap: 30px;
+   justify-content: center;
+}
+
+.training-conteiner article{
+   margin-top: 80px;
+   width: 328px; 
+   box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+   padding: 103px 69px;
+   text-align: center;
+   border-radius: 0px; 
+   transition: 0.5s;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: center;
+}
+
+.training-conteiner article:hover{
+   box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+   transform: translateY(-8px);
+}
+
+.training-conteiner article h2{
+    font-size: 28px;
 }
 /* FIM DO MOST-POPULAR-COURSES */
