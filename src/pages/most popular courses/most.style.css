@@ -19,7 +19,6 @@
    margin-top: 15px;
 }
 
-
 .training-conteiner img{
    margin-bottom: 10px;
    width: 70px;
@@ -37,7 +36,6 @@
    color: #737373;
    font-family:var(--font--family--regular);
 }
-
 
 .training-conteiner{
    display: flex;
