@@ -48,6 +48,19 @@ header h1{
     justify-content: center;
     cursor: pointer;
 }
+.menu-toggle{
+     
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    display: none;
+}
+
+.menu{
+    height: 3px;
+    width: 24px;
+    background-color: black;    
+}
 /* FIM DO HEADER */
 
 /* COMEÇO DO MAIN */
@@ -101,17 +114,19 @@ main img{
 /* FIM DO MAIN */
 
 /* COMEÇO DO OUR POPULAR COURSES */
-.our-popular-pourses{
+.our-popular-courses{
     text-align: center;
     padding-top: 81px;
+    margin-bottom: 160px;
 }
 
 .popular-courses{
     width: 470px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 .p-problems{
-    margin: 10px 0px 80px ;
+    margin: 10px 0px;
 }
 
 .popular-courses-img img{
@@ -119,3 +134,871 @@ main img{
     cursor: pointer;
 }
 /* FIM DO OUR POPULAR COURSES */
+
+/* COMEÇO DO MOST -POPULAR -COURSES */
+.most-popular{    
+    text-align: center;
+    margin-bottom: 60px ;    
+ }
+
+ .apresentation-most-popular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
+ .practice-conteiner{
+     display: flex;
+ }
+ 
+ .most-popular h4{
+    margin-top: 10px;
+    font-family:var(--font--family--regular);
+    color:#96BB7C;
+ }
+ 
+ .most-popular h2{
+    margin-top: 15px;
+ }
+
+ .training-conteiner img{
+    margin-bottom: 10px;
+    width: 70px;
+ }
+ 
+ .line-red{
+    background-color: var(--color--danger);
+    height: 3px;
+    width: 60px;
+ }
+ 
+ .gradual-content{
+    width: 156px;
+    border-radius: 0%;
+    color: #737373;
+    font-family:var(--font--family--regular);
+ }
+ 
+ 
+ .training-conteiner{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+ }
+ 
+ .training-conteiner article{
+    margin-top: 80px;
+    width: 328px; 
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
+    padding: 103px 69px;
+    text-align: center;
+    border-radius: 0px; 
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+ }
+ 
+ .training-conteiner article:hover{
+    box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+    transform: translateY(-8px);
+ }
+ 
+ .training-conteiner article h2{
+     font-size: 28px;
+ }
+ /* FIM DO MOST-POPULAR-COURSES */
+
+ /* COMEÇO DO OUR-POPULAR-CLIENTS */
+
+ .ourpopular{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 50px;
+}
+
+.ourpopular-conteiner h2{
+   width: 268px;
+   margin-bottom: 35px;
+}
+
+.ourpopular-conteiner p{
+    width: 345px;
+    margin-bottom: 35px;
+}
+
+.ourpopular-conteiner{
+    border-top: 6px solid var(--color--danger);
+    width: 95px;
+    border-radius: 0%;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.ourpopular-conteiner button{
+    color: #96BB7C;
+    background-color: white;
+}
+
+
+.learn-more button{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    gap: 10px;
+    font-size: 12px;
+    font-family: var( --font--family--bold); 
+}
+/* FIM DO OUR-POPULAR-CLIENTS */
+
+/*COMEÇO EVERY-CLIENTS-MATTERS */
+.every-clients-container{
+    margin-top: 93px;
+}
+
+.container-book-training{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.every-clients-content{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.every-clients-content p{
+    color: var(--color--text--grey);
+    width: 463px;
+    text-align: center;
+}
+.every-clients-content h2{
+    margin-bottom: 10px;
+    font-size: var( --font--size--h2);
+
+}
+.sale{
+    display: flex;
+    background-color: var( --color--danger);
+    color: var(  --color--neutral--white);
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.img-book-libery{
+    background-image: url('../assets/images/img-lapis.svg');
+    width: 348px;
+    height: 300px;
+    display: flex;
+}
+.icons-de-compra{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+.img-training-courses{
+    background-image: url('../assets/images/img-lapis-amarelo.svg');
+    width: 348px;
+    height: 300px;
+    display: flex;
+}
+.book-training-content{
+    padding: 25px 25px 35px 25px;
+}
+.books-training-link{
+    display: flex;
+    justify-content: space-between;
+    width: 298px;
+    height: 26px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.avaliação{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: var(--color--dark--background-color);
+    border-radius: 20px;
+    padding:5px;
+    gap: 5px;
+    color: var(--color--neutral--white);
+}
+.books-training-p{
+    color: var( --color--primary--green);
+    font-family: var( --font--family--bold);
+}
+.book-training-h3{
+    width: 131px;
+    font-family:var(--font--family--bold);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.sales{
+    display: flex;
+    justify-content: center;
+    width: 83px;
+    height: 24px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sales p{
+    color:var(  --color--text--grey);
+    font-family: var(--font--family--bold);
+
+}
+.icon-download img{
+    width: 16px;
+    height: 16px;
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 112px;
+    height: 34px;
+    margin-bottom: 10px;
+}
+.p-we-focus{
+    width: 280px;
+    margin-bottom: 10px;
+    color: var(--color--text--grey);
+}
+.span-orange-p{
+    color: var(--color--text--orange);
+    font-family: var(--font--family--bold);
+   font-size: var(--font--size--medium--p); 
+}
+.span-grey-p{
+    color: var( --color--muted--grey);
+    font-family: var(--font--family--bold);
+    font-size: var(--font--size--medium--p); 
+}
+.bnt-learn-more{
+    display: flex;
+    justify-content: center;
+    background:none;
+    border: 1px solid var(--color--primary--green);
+    border-radius:37px ;
+    padding: 10px 20px;
+    
+}
+.bnt-learn-more a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color--primary--green);
+    text-align: center;
+    font-family: var( --font--size--p);
+    font-family: var(--font--family--bold);
+    gap: 10px;
+}
+/*FIM  EVERY-CLIENTS-MATTERS */
+
+/* COMEÇO DO GET-QUALITY-EDUCATION */
+
+.get-quality-education{
+    text-align: center;
+}
+
+.education{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 0px 80px;
+}
+
+.education h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.education-container{
+    display: flex;
+    
+}
+
+.education-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 323px;
+    margin: 0 auto;    
+    
+}
+
+.education-cards{
+    padding: 37px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+}
+
+
+.free h3{
+    margin: 35px
+}
+
+.free p{
+    width: 147px;
+    color: var( --color--text--grey);
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.per-month h3{
+    color: var(--color--primary--green);
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.per-month p:nth-of-type(1){
+    color: var(--color--light--blue);
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.per-month p:nth-of-type(2){
+    width: 200px;
+    margin: 0 auto;
+}
+
+.per-month button{
+    margin-top: 35px;
+    padding: 15px 80px;
+    background-color: var(--color--primary--green);
+    border-radius: 5px;
+    color: var(  --color--light--gray);
+}
+
+.education-content{
+    width: 250PX;    
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;    
+    flex-direction: column;    
+    gap: 15px;
+}
+
+.update{
+    display: flex;    
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+.cards-education{
+    background-color: var(--color--dark--background-color);
+    padding: 50px 0px;     
+    padding: 37px;
+    position: relative;
+}
+
+.texte{
+    position: absolute;
+    top: -45px;
+    right: -45px;
+    
+}
+
+
+.free-new h3{
+    margin: 35px;
+    color: var( --color--light--gray);
+}
+
+.free-new p{
+    width: 147px;
+    color: var( --color--light--gray);
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.per-month-new h3{
+    color: var( --color--primary--green);
+    font-size: 40px;
+    margin-top: 35px;
+}
+
+.per-month-new p:nth-of-type(1){
+    color: var(--color--light--blue);
+    margin-bottom: 35px;
+}
+
+.per-month-new p:nth-of-type(2){
+    width: 200px;
+    margin: 0 auto;
+    color: var(--color--light--gray);
+}
+
+.per-month-new button{
+    margin-top: 35px;
+    padding: 15px 80px;
+    background-color: var(--color--primary--green);
+    border-radius: 5px;
+    color: var(  --color--light--gray);
+}
+
+.education-content{
+    width: 250PX;    
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;    
+    flex-direction: column;    
+    gap: 15px;
+}
+
+.update-new{
+    display: flex;    
+    gap: 10px;
+    align-items: center;
+    color: var(--color--light--gray);
+}
+/* FIM DO GET-QUALITY-EDUCATION */
+
+/* INICIO DO SECTION COMENTS */
+.coments-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+    margin-top: 160px;
+}
+.coments-content{
+    text-align: center;
+  
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.coments-cards p{
+    width: 303px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.p-white{
+    text-align: center;
+    width: 463px;
+    margin: 0 auto;
+    color: var(--color--neutral--white);
+    font-weight: 100;
+}
+.coments-cards{
+    text-align: center;
+}
+.stars-coments{     
+    display: flex;
+    justify-content: center;   
+    margin-bottom: 15px;
+}
+.coments-cards-content{
+    padding: 30px;
+}
+.coments-cards-content h3{
+    margin-bottom: 5px;
+}
+.profession{
+    color: var(--color--text--grey);
+    font-size: 14px;
+    font-family: var(  --font--family--bold)
+}
+/* FIM DO SECTION COMENTS */
+
+/* COMEÇO DO NEWSLETTER */
+.subscribe{
+    background-color: var(--color--dark--background-color);
+    padding: 160px 195px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-top: 61.99px;
+
+}
+/* .newsteller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+.subscribe p{
+    margin-bottom: 10px;
+    /* font-weight: bold; */
+}
+.subscribe h2{
+    color: var(--color--neutral--white);
+    margin-bottom: 10px;
+    font-family: var(--font--family--bold);
+}
+.newsteller-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap:  80px; */
+}
+
+input{
+    width: 677px;
+    height: 58px;
+    background-color: var(--color--neutral--white);
+    color: var(--color--neutral--black);    
+    font-size: var(--font--size--p);
+    border-radius: 5px 0px 0px 5px;
+
+}
+input::placeholder{
+    color: var(--color--text--grey);
+    padding: 20px;
+   
+}
+.newsteller-email button{
+    width: 117px;
+    height: 58px;
+    background-color: var(--color--primary--green);
+    color: var(--color--neutral--white);
+    font-size: var(--font--size--btn--text);
+    cursor: pointer;
+    position: relative;    
+    border-radius: 0px 5px 5px 0px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    background-color: var(--color--neutral--white);
+    border-radius: 5px;
+    border: 1px solid #E6E6E6;
+}
+/* FIM DO NEWSLETTER */
+
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 59px;
+    padding: 50px 0px;
+}
+
+.footer-list ul{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+
+.footer-list a{
+    text-decoration: none;
+  
+}
+.footer-list h3{
+    text-transform: capitalize;
+}
+
+.footer-list li{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--color--text--grey);
+}
+
+.get-in-touch li{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+    font-weight: bold;
+    color: var( --color--text--grey);  
+}
+.get-in-touch h3{
+    text-transform: capitalize;
+}
+
+.by-figmaland{
+    display: flex;
+    justify-content: center;
+    gap: 439px;
+    padding: 25px;
+    background-color: var( --color--light--gray);
+}
+
+.by-figmaland p{
+    color: var(--color--text--grey);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20.5px;
+    align-items: center;
+}
+
+/* ------ fim Footer ------- */
+
+
+/* ----- RESPONSIVIDADE ---- */
+
+
+ /* --- INICIO HEADER -- */
+@media (max-width: 435px){
+
+    header{
+        margin: 38px 0px;
+    }
+
+    .nav-header, .btn-header{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+ /* --- FIM HEADER -- */
+
+
+  /* ----- INICIO MAIN----- */
+
+ @media (max-width: 435px){
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    
+    .main-content{
+        width: 90%;
+    }
+    .quality-courses h1{
+        font-size: 45px;
+    }
+    
+
+    .main-learn-more button{
+        padding: 15px 20px;
+    }
+    .img-main{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    
+}
+/* ----- FIM MAIN----- */
+
+/* ---- COMEÇO OUR POPULAR COURSES ----- */
+
+@media (max-width: 435px){
+
+    .popular-courses{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .p-problems{
+        width: 100%;
+    }
+    .popular-courses-img{
+        width:95%;
+    }
+
+}
+/* ---- FIM OUR POPULAR COURSES ----- */
+
+/* ---COMEÇO DO MOST-POPULAR-COURSES */
+
+@media (max-width: 435px) {
+   
+    .most-popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       text-align: center;
+       margin-top: 15px;
+    }
+ 
+    .most-popular h4{
+       margin-top: 15px;
+       margin-bottom: 15px;
+    }
+ 
+    .p-problems{
+       margin-top: 15px;
+       width: 300px;
+    }
+ 
+    .training-conteiner{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+ 
+    .training-conteiner article{
+       margin-top: 50px;
+       padding: 15px; 
+       box-shadow: 0px 2px rgb(171, 190, 209, 0.2);
+    }
+ 
+    .training-conteiner article h2{
+       font-size: 15px;
+    }
+ }
+ 
+ /*---FIM-MOST-POPULAR-COURSES--- */
+
+ /* ---COMEÇO DO POPULAR-COURSES */
+ @media (max-width: 435px) {
+    .ourpopular{
+        gap: 20px;
+        margin: 50px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+      }
+      .ourpopular-conteiner{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+      }
+     
+      .ourpopular-conteiner h2{
+          width: 268px;
+          margin-bottom: 15px;
+          
+       }
+  
+       .ourpopular-content img{
+          width: 350px;
+          margin-top: 15px;
+          
+       }
+       
+       .ourpopular-conteiner p{
+          width: 295px;
+      }
+  
+       .learn-more img{
+         width: 10px;
+       }
+ }
+     
+ 
+ /* ---FIM DO POPULAR-COURSES */
+
+
+ /* INICIO-RESPONSIVIDADE EVERY-CLIENTS-MATTERS */
+
+@media (max-width: 435px) {
+    .container-book-training{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* FIM-RESPONSIVIDADE EVERY-CLIENTS-MATTERS */
+
+/* --COMEÇO DA GET QUALITY EDUCATION-- */
+@media (max-width: 435px){
+ 
+    .get-quality-education{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        
+    }
+    .education-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .education{
+        width: 100%;
+    }
+}
+/* --FIM DA GET QUALITY EDUCATION-- */
+
+/* INICIO RESPONSIVIDADE COMENTS */
+@media (max-width: 435px){
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* FIM RESPONSIVIDADE COMENTS */
+
+/* INICIO RESPONSIVIDADE NEWSLETTER */
+
+@media (max-width: 500px){
+
+    .subscribe{
+        padding: 40px 15px;
+        gap: 20px;
+    
+    }
+    .newsteller-content{
+        width: 70%;
+    }
+    input{
+        width: 277px;
+    }
+
+}
+/* FIM RESPONSIVIDADE NEWSLETTER */
+
+/* --INICIO FOOTER --*/
+
+@media (max-width: 435px){
+
+    footer{
+        width: 90%;
+    }
+
+    .footer-container{
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .get-in-touch li{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: start;
+        font-weight: bold;
+        color: var( --color--text--grey);   
+    }
+
+    .by-figmaland {
+        gap: 10px; /* Menos gap em telas muito pequenas */
+        width: 100%;
+    }
+
+    .social-icons {
+        gap: 10px; /* Menos espaço entre os ícones sociais */
+    }
+}
+
+/* --FIM FOOTER */
+

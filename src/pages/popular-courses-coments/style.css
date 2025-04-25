@@ -42,3 +42,15 @@
     font-family: var(  --font--family--bold)
 }
 /* FIM DO SECTION COMENTS */
+
+/* INICIO RESPONSIVIDADE COMENTS */
+@media (max-width: 435px){
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* FIM RESPONSIVIDADE COMENTS */
