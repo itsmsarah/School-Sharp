@@ -47,4 +47,31 @@
 
 @media (max-width: 435px) {
     
+    .ourpopular{
+      gap: 20px;
+      margin: 50px;
+      padding-right: 39%;
+      flex-direction: column-reverse;
+    }
+   
+    .ourpopular-conteiner h2{
+        width: 268px;
+        margin-bottom: 15px;
+        margin-bottom: 10px;
+     }
+
+     .ourpopular-content img{
+        width: 350px;
+        margin-top: 15px;
+        padding-left: 22%;
+     }
+     
+     .ourpopular-conteiner p{
+        width: 295px;
+    }
+
+     .learn-more img{
+       width: 10px;
+     }
+
 }
